@@ -1,6 +1,6 @@
 import ast
 
-vietchar_path = r"D:\Dowloads_1\S2T\Vietnamese_char.txt"
+vietchar_path = r"vietchar_path"
 with open(vietchar_path, "r", encoding="utf-8") as f:
     content = f.read()
 vietchar = ast.literal_eval(f"[{content}]")
