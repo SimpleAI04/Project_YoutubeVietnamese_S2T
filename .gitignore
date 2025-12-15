@@ -1,0 +1,11 @@
+# model & language model
+*.bin
+
+Youtube_Tool/bin/ffmpeg.exe
+
+Youtube_Tool/bin/yt-dlp.exe
+
+# venv
+venv/
+
+.vscode/

@@ -1,0 +1,5 @@
+librosa==0.11.0
+pyctcdecode==0.5.0
+streamlit==1.52.1
+torch==2.9.0+cu130
+torchaudio==2.9.0+cu130
