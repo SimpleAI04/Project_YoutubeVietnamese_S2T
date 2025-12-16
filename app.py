@@ -24,7 +24,7 @@ def init_app():
         dropout=0.3,
     )
     model.load_state_dict(
-        torch.load(r"D:\Dowloads_1\S2T\best_model.pth", map_location=device)
+        torch.load(r"best_model.pth", map_location=device)
     )
     model.to(device)
     model.eval()
