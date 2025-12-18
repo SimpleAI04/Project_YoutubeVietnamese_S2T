@@ -33,7 +33,7 @@ def init_app():
     labels = [c if c != "<BLANK>" else "" for c in tt.all_char]
     decoder = build_ctcdecoder(
         labels=labels,
-        # kenlm_model_path=r"D:\Dowloads_1\S2TDemo\vi_lm_5grams.bin",
+        # kenlm_model_path=r"vi_lm_5grams.bin",
         # alpha=0.5,
         # beta=1.5,
     )
